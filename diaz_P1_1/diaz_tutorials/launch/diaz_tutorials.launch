@@ -1,0 +1,13 @@
+<launch>
+    <arg name="name" default="turtle"/>
+    <arg name="keyboard_name" default="keyboard"/>
+    <arg name="vel_topic" default="velocity"/>
+
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node" output="screen">
+        <remap from="/turtle1/cmd_vel" to="$(arg vel_topic)"/>
+    </node>
+
+    <node pkg="turtlesim" type="turtle_teleop_key" name="turtlesim_teleop_key" output="screen">
+        <remap from="/turtle1/cmd_vel" to="$(arg vel_topic)"/>
+    </node>
+</launch>
