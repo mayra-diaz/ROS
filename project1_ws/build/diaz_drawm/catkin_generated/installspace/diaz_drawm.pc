@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/ROS/project1_ws/install
+
+Name: diaz_drawm
+Description: Description of diaz_drawm
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

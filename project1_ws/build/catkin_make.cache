@@ -1,0 +1,2 @@
+diaz_P1_1/diaz_tutorials:diaz_drawm
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/ROS/project1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS/project1_ws/install -G Unix Makefiles
